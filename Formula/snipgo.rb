@@ -5,23 +5,23 @@
 class Snipgo < Formula
   desc "Local-First Snippet Manager"
   homepage "https://github.com/atobaum/snipgo"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   depends_on "fzf"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/atobaum/snipgo/releases/download/v0.0.3/snipgo_0.0.3_darwin_amd64.tar.gz"
-    sha256 "0d4cff2ad905d8c546c21f3325cbfd9c056273b326877867d4779becdb3e4475"
+    url "https://github.com/atobaum/snipgo/releases/download/v0.0.4/snipgo_0.0.4_darwin_amd64.tar.gz"
+    sha256 "05ec4b738c3878aa9920b990d68dff4d4623bfaf2f3dfbece497d746dfd2d282"
 
     def install
       bin.install "snipgo"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/atobaum/snipgo/releases/download/v0.0.3/snipgo_0.0.3_darwin_arm64.tar.gz"
-    sha256 "cfde46dfddbd587768cfe8a41b2c0bcc9b96411c04043e99a17d9ac8ef92f233"
+    url "https://github.com/atobaum/snipgo/releases/download/v0.0.4/snipgo_0.0.4_darwin_arm64.tar.gz"
+    sha256 "d944f29458255f49aaad7b7ef5f3bb71621cef48fb4d9f77b398331e34a591f1"
 
     def install
       bin.install "snipgo"
