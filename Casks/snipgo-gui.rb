@@ -1,6 +1,6 @@
 cask "snipgo-gui" do
-  version "0.0.4"
-  sha256 "6d54205966a118c1dc857b1d713b961df7a2d3d73e1fe829807bf73f0b77eb88"
+  version "0.1.0"
+  sha256 "c262d919041feda92c04a468862a3d687f230495b3707cca31cf1745a472a697"
 
   url "https://github.com/atobaum/snipgo/releases/download/v#{version}/Snipgo_#{version}_darwin_universal.zip"
   name "Snipgo"
